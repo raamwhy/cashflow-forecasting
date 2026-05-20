@@ -15,12 +15,10 @@ Notebook ini adalah versi full yang berisi alur lengkap mulai dari data understa
 
 ## Repository Structure
 
-- `dataset/` berisi data internal dan dataset external yang digunakan untuk training.
+- `dataset/` berisi dataset external yang digunakan untuk training dan data internal.
 - `outputs/` berisi hasil forecast, model evaluation metrics, grafik, Excel output, dan Word report.
-- `Cashflow Forecast Dashboard.pdf` dan `Cashflow Forecast Report.pdf` berisi hasil laporan dalam format PDF.
+- `Cashflow Forecast Dashboard.pdf` berisi hasil laporan dalam format PDF.
 - `requirements.txt` berisi daftar library Python utama yang digunakan.
-
-Folder `website/` tidak disertakan dalam push repository ini.
 
 ## Method Overview
 
@@ -33,4 +31,4 @@ Folder `website/` tidak disertakan dalam push repository ini.
 
 ## Notes
 
-Forecast ini adalah estimasi berbasis model dan skenario, bukan angka pasti. Hasil tetap perlu divalidasi dengan informasi bisnis aktual seperti jadwal collection, pembayaran vendor, OPEX/O&M, dan kebutuhan working capital.
+Forecast ini adalah estimasi berbasis model dan skenario, bukan angka pasti. Hasil tetap perlu divalidasi dengan informasi bisnis aktual.
