@@ -16,9 +16,9 @@ website/
 
 # Notebook/runtime artifacts
 .ipynb_checkpoints/
+cashflow_forecasting_13_weeks_final.ipynb
 __pycache__/
 *.pyc
 .venv/
 venv/
 env/
-
