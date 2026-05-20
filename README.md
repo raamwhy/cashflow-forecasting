@@ -13,6 +13,19 @@ Project ini berisi notebook, dataset, output, dan laporan forecasting cashflow 1
 
 Notebook ini adalah versi full yang berisi alur lengkap mulai dari data understanding, preprocessing, feature engineering, model training, direct forecast, internal trend calibration, scenario analysis, visualisasi, export output, sampai business summary.
 
+## External Datasets
+
+Dataset external yang digunakan berasal dari Kaggle:
+
+1. [An example cash in - cash out dataset](https://www.kaggle.com/datasets/yunusakkaya/an-example-cash-in-cash-out-dataset)  
+   Digunakan sebagai dataset utama karena memiliki konsep cash in dan cash out harian dan distandarisasi menjadi weekly cashflow.
+
+2. [Financial Transactions Dataset: Expenses & Income](https://www.kaggle.com/datasets/artemkabseu/financial-transactions-dataset-expenses-and-income)  
+   Digunakan sebagai dataset transaksi income dan expense untuk membantu model mempelajari pola inflow dan outflow.
+
+3. [Financial Cashflow / SAP-style accounting dataset](https://www.kaggle.com/datasets/ziya07/accounting-data-for-financial-management)  
+   Digunakan sebagai dataset tambahan yang memiliki konsep financial cashflow.
+
 ## Repository Structure
 
 - `dataset/` berisi dataset external yang digunakan untuk training dan data internal.
