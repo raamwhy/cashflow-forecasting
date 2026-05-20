@@ -1,22 +1,8 @@
-# Local data and generated outputs
-dataset/
-data_external/
-outputs/
-*.csv
-*.xlsx
-*.xls
-*.pdf
-*.docx
-*.png
-*.jpg
-*.jpeg
-
 # Website dashboard is intentionally excluded from this repository push
 website/
 
 # Notebook/runtime artifacts
 .ipynb_checkpoints/
-cashflow_forecasting_13_weeks_final.ipynb
 __pycache__/
 *.pyc
 .venv/
