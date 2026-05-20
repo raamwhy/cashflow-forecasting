@@ -1,19 +1,26 @@
 # Cashflow Forecasting 13 Weeks
 
-Project ini berisi notebook forecasting cashflow 13 minggu ke depan menggunakan pendekatan:
+Project ini berisi notebook, dataset, output, dan laporan forecasting cashflow 13 minggu ke depan menggunakan pendekatan:
 
 - External dataset training
 - Internal company inference
 - Internal trend calibration
 - Scenario analysis
 
-Data internal perusahaan dan output hasil forecasting tidak disertakan di repository ini karena bersifat lokal/sensitif. Untuk menjalankan notebook, siapkan file data sesuai path yang digunakan di notebook.
-
 ## Main Notebook
 
-- `cashflow_forecasting_13_weeks_final_public.ipynb`
+- `cashflow_forecasting_13_weeks_final.ipynb`
 
-Notebook public ini sudah dibersihkan dari output cell agar angka data internal tidak ikut tersimpan di GitHub.
+Notebook ini adalah versi full yang berisi alur lengkap mulai dari data understanding, preprocessing, feature engineering, model training, direct forecast, internal trend calibration, scenario analysis, visualisasi, export output, sampai business summary.
+
+## Repository Structure
+
+- `dataset/` berisi data internal dan dataset external yang digunakan untuk training.
+- `outputs/` berisi hasil forecast, model evaluation metrics, grafik, Excel output, dan Word report.
+- `Cashflow Forecast Dashboard.pdf` dan `Cashflow Forecast Report.pdf` berisi hasil laporan dalam format PDF.
+- `requirements.txt` berisi daftar library Python utama yang digunakan.
+
+Folder `website/` tidak disertakan dalam push repository ini.
 
 ## Method Overview
 
@@ -27,4 +34,3 @@ Notebook public ini sudah dibersihkan dari output cell agar angka data internal 
 ## Notes
 
 Forecast ini adalah estimasi berbasis model dan skenario, bukan angka pasti. Hasil tetap perlu divalidasi dengan informasi bisnis aktual seperti jadwal collection, pembayaran vendor, OPEX/O&M, dan kebutuhan working capital.
-
